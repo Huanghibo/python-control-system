@@ -5,8 +5,8 @@
 <Project version="5.1">
   <Language></Language>
   <Hash>92f9b71d163c086a436dd11225167f03a6f2d4f4</Hash>
-  <ProgLanguage mixed="0">Python2</ProgLanguage>
-  <ProjectType>Kivy</ProjectType>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>Other</ProjectType>
   <Description></Description>
   <Version>0.1</Version>
   <Author></Author>
@@ -22,14 +22,13 @@
     <Source>pycontrolsys/core/node/base.py</Source>
     <Source>pycontrolsys/core/node/controlnode.py</Source>
     <Source>pycontrolsys/core/node/__init__.py</Source>
+    <Source>pycontrolsys/core/system.py</Source>
   </Sources>
   <Forms/>
   <Translations/>
   <Resources/>
   <Interfaces/>
-  <Others>
-    <Other>.issues</Other>
-  </Others>
+  <Others/>
   <Vcs>
     <VcsType>Git</VcsType>
     <VcsOptions>
@@ -138,11 +137,9 @@
   </Vcs>
   <FiletypeAssociations>
     <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
-    <FiletypeAssociation pattern="*.kivy" type="SOURCES"/>
-    <FiletypeAssociation pattern="*.kv" type="SOURCES"/>
-    <FiletypeAssociation pattern="*.ptl" type="SOURCES"/>
     <FiletypeAssociation pattern="*.py" type="SOURCES"/>
-    <FiletypeAssociation pattern="*.py2" type="SOURCES"/>
-    <FiletypeAssociation pattern="*.pyw2" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
   </FiletypeAssociations>
 </Project>
