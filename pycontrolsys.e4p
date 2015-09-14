@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
-<!-- eric5 project file for project pycontrolsys -->
-<!-- Saved: 2014-08-16, 17:35:13 -->
-<!-- Copyright (C) 2014 ,  -->
+<!-- eric project file for project pycontrolsys -->
+<!-- Copyright (C) 2015 ,  -->
 <Project version="5.1">
   <Language></Language>
   <Hash>92f9b71d163c086a436dd11225167f03a6f2d4f4</Hash>
@@ -12,10 +11,17 @@
   <Version>0.1</Version>
   <Author></Author>
   <Email></Email>
+  <Eol index="-1"/>
   <Sources>
     <Source>__init__.py</Source>
-    <Source>src/__init__.py</Source>
-    <Source>src/core/__init__.py</Source>
+    <Source>pycontrolsys/__init__.py</Source>
+    <Source>pycontrolsys/utils/uniqueid.py</Source>
+    <Source>pycontrolsys/utils/ipinfo.py</Source>
+    <Source>pycontrolsys/utils/__init__.py</Source>
+    <Source>pycontrolsys/core/__init__.py</Source>
+    <Source>pycontrolsys/core/node/base.py</Source>
+    <Source>pycontrolsys/core/node/controlnode.py</Source>
+    <Source>pycontrolsys/core/node/__init__.py</Source>
   </Sources>
   <Forms/>
   <Translations/>
@@ -25,7 +31,110 @@
     <Other>.issues</Other>
   </Others>
   <Vcs>
-    <VcsType>None</VcsType>
+    <VcsType>Git</VcsType>
+    <VcsOptions>
+      <dict>
+        <key>
+          <string>add</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>checkout</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>commit</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>diff</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>export</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>global</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>history</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>log</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>remove</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>status</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>tag</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>update</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+      </dict>
+    </VcsOptions>
+    <VcsOtherData>
+      <dict/>
+    </VcsOtherData>
   </Vcs>
   <FiletypeAssociations>
     <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
